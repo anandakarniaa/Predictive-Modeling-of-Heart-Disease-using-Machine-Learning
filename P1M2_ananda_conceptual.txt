@@ -1,0 +1,15 @@
+
+1. Latar Belakang dan Cara Kerja Bagging:
+Bagging (Bootstrap Aggregating) adalah teknik ensemble learning yang bertujuan untuk meningkatkan akurasi dan stabilitas model machine learning, terutama model yang rentan terhadap overfitting (seperti decision tree). Latar belakang munculnya bagging adalah untuk mengurangi varians dari model dengan cara menggabungkan prediksi dari beberapa model yang dilatih pada subset data yang berbeda. Cara kerjanya adalah:
+- Dataset dilatih menggunakan teknik bootstrap, yaitu membuat beberapa subset data dengan pengambilan sampel secara acak dengan pengembalian.
+- Setiap subset digunakan untuk melatih model yang sama (misalnya decision tree).
+- Hasil prediksi dari seluruh model digabungkan: untuk regresi digunakan rata-rata, dan untuk klasifikasi digunakan voting mayoritas.
+
+2. Perbedaan Random Forest vs Boosting (contoh: XGBoost):
+Random Forest adalah metode bagging yang menggunakan banyak pohon keputusan (decision trees) yang dilatih secara paralel dan independen. Tujuan utamanya adalah mengurangi varians. Sementara itu, boosting seperti XGBoost bekerja secara sekuensial di mana setiap model baru dilatih untuk memperbaiki kesalahan dari model sebelumnya. Perbedaan utama:
+- Random Forest: model dibangun secara paralel, tidak saling tergantung, fokus mengurangi varians.
+- Boosting (XGBoost): model dibangun secara berurutan, saling tergantung, fokus mengurangi bias dan error secara bertahap.
+Boosting umumnya lebih akurat tetapi lebih kompleks dan berisiko overfitting jika tidak dikontrol.
+
+3. Pengertian Cross Validation:
+Cross Validation adalah teknik evaluasi model untuk menguji performa model secara lebih akurat dan menghindari overfitting. Data dibagi menjadi beberapa subset (folds), dan model dilatih pada sebagian subset dan diuji pada subset lainnya. Proses ini diulang beberapa kali dengan kombinasi yang berbeda-beda. Contoh paling umum adalah K-Fold Cross Validation, di mana data dibagi menjadi K bagian; model dilatih pada K-1 bagian dan divalidasi pada 1 bagian, lalu dirata-rata. Teknik ini memberikan estimasi performa model yang lebih andal.
