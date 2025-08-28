@@ -328,4 +328,5 @@ Catatan : Penilaian Milestone 2 juga dapat dipengaruhi oleh aktivitas student se
 
 * **Keterlambatan pengumpulan tugas mengakibatkan skor Milestone 2 menjadi 0.**
 #   P r e d i c t i v e - M o d e l i n g - o f - H e a r t - D i s e a s e - u s i n g - M a c h i n e - L e a r n i n g  
+ #   P r e d i c t i v e - M o d e l i n g - o f - H e a r t - D i s e a s e - u s i n g - M a c h i n e - L e a r n i n g  
  
