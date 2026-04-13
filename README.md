@@ -1,3 +1,5 @@
+<<<<<<< 
+
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/FnE7IOip)
 # Phase 1 Milestone 2
 
@@ -319,14 +321,5 @@ Catatan : Penilaian Milestone 2 juga dapat dipengaruhi oleh aktivitas student se
 
 ---
 
-## Notes
 
-* Deadline : 
-  - Default : Phase 1 Week 4 Day 3 pukul 18:00 WIB.
-  - Deadline dapat berubah jika terdapat kondisi khusus seperti hari libur atau hal lain.
-  - Silakan cek kembali mengenai deadline tugas ini pada repository Anda atau silakan tanyakan ke instruktur/buddy Anda.
-
-* **Keterlambatan pengumpulan tugas mengakibatkan skor Milestone 2 menjadi 0.**
-#   P r e d i c t i v e - M o d e l i n g - o f - H e a r t - D i s e a s e - u s i n g - M a c h i n e - L e a r n i n g  
- #   P r e d i c t i v e - M o d e l i n g - o f - H e a r t - D i s e a s e - u s i n g - M a c h i n e - L e a r n i n g  
- 
+>>>>>>>
